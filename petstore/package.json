@@ -1,0 +1,16 @@
+{
+    "name": "Meow Meow Petstore",
+    "version": "1.0.0",
+    "description": "Petstore API",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {},
+    "dependencies": {
+        "@faker-js/faker": "^7.6.0",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "jest": "^28.1.0",
+        "supertest": "^6.2.3"
+    }
+}
