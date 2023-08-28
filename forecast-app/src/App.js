@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
@@ -26,7 +27,7 @@ const cities = [{
 },]
 
 function App() {
-  const forecasts = useZSztate;
+  const [forecasts, setForecasts] = useState([]);
   const onClick = () => undefined;
 
   return (
